@@ -160,6 +160,7 @@
 		96A0A9BB152D74EB00BEACCF /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96A0A9BA152D74EB00BEACCF /* HelloWorldLayer.mm */; };
 		96A0A9BE152D74EB00BEACCF /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96A0A9BD152D74EB00BEACCF /* GLES-Render.mm */; };
 		96A0A9C1152D74EB00BEACCF /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A0A9C0152D74EB00BEACCF /* blocks.png */; };
+		96A0A9C8153015FE00BEACCF /* blocks-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A0A9C7153015FE00BEACCF /* blocks-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -476,6 +477,7 @@
 		96A0A9BD152D74EB00BEACCF /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		96A0A9BF152D74EB00BEACCF /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		96A0A9C0152D74EB00BEACCF /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		96A0A9C7153015FE00BEACCF /* blocks-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blocks-hd.png"; path = "Resources/blocks-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -562,6 +564,7 @@
 				96A0A7FD152D74E700BEACCF /* Info.plist */,
 				96A0A7FE152D74E700BEACCF /* iTunesArtwork */,
 				96A0A9C0152D74EB00BEACCF /* blocks.png */,
+				96A0A9C7153015FE00BEACCF /* blocks-hd.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1069,6 +1072,7 @@
 				96A0A7FC152D74E700BEACCF /* Icon@2x.png in Resources */,
 				96A0A7FF152D74E700BEACCF /* iTunesArtwork in Resources */,
 				96A0A9C1152D74EB00BEACCF /* blocks.png in Resources */,
+				96A0A9C8153015FE00BEACCF /* blocks-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1265,6 +1269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "box2d-test/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "box2d-test/Resources/Info.plist";
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1281,6 +1286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "box2d-test/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "box2d-test/Resources/Info.plist";
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
